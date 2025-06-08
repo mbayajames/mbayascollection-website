@@ -1,0 +1,16 @@
+.product-video {
+  margin-top: 2rem;
+}
+
+.product-video iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .product-video {
+    margin-top: 1rem;
+  }
+}
