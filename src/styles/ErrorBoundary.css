@@ -1,0 +1,27 @@
+.error-boundary {
+  padding: 2rem;
+  text-align: center;
+}
+
+.error-boundary h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.error-boundary p {
+  font-size: 1.4rem;
+}
+
+.dark-mode .error-boundary {
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 767px) {
+  .error-boundary h2 {
+    font-size: 2rem;
+  }
+
+  .error-boundary p {
+    font-size: 1.2rem;
+  }
+}
