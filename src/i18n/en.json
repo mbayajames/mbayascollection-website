@@ -1,0 +1,26 @@
+{
+  "home": {
+    "welcome": "Welcome to Mbaya's Collection",
+    "shop_now": "Shop Now"
+  },
+  "navbar": {
+    "products": "Products",
+    "cart": "Cart",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "products": {
+    "all": "All",
+    "shoes": "Shoes",
+    "accessories": "Accessories",
+    "clothes": "Clothes"
+  },
+  "cart": {
+    "empty": "Your cart is empty.",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Proceed to Checkout"
+  }
+}

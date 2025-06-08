@@ -1,0 +1,48 @@
+.help-center {
+  padding: 2rem;
+}
+
+.help-center h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.help-center h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.faq {
+  margin-bottom: 1.5rem;
+}
+
+.faq h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq p {
+  font-size: 1.4rem;
+}
+
+.dark-mode .help-center {
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 767px) {
+  .help-center h2 {
+    font-size: 2rem;
+  }
+
+  .help-center h3 {
+    font-size: 1.6rem;
+  }
+
+  .faq h4 {
+    font-size: 1.3rem;
+  }
+
+  .faq p {
+    font-size: 1.2rem;
+  }
+}

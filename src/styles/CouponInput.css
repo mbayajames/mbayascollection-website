@@ -1,0 +1,27 @@
+.coupon-input {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.coupon-input input {
+  padding: 0.75rem;
+  font-size: 1.3rem;
+  flex: 1;
+}
+
+.coupon-input button {
+  padding: 0.75rem 1.5rem;
+  background-color: #0055ff;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .coupon-input input,
+  .coupon-input button {
+    font-size: 1.2rem;
+  }
+}

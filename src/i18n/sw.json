@@ -1,0 +1,26 @@
+{
+  "home": {
+    "welcome": "Karibu kwenye Mbaya's Collection",
+    "shop_now": "Nunua Sasa"
+  },
+  "navbar": {
+    "products": "Bidhaa",
+    "cart": "Cart",
+    "profile": "Profaili",
+    "login": "Ingia",
+    "logout": "Toka"
+  },
+  "products": {
+    "all": "Zote",
+    "shoes": "Viatu",
+    "accessories": "Vifaa",
+    "clothes": "Nguo"
+  },
+  "cart": {
+    "empty": "Cart yako iko tupu.",
+    "subtotal": "Jumla ndogo",
+    "discount": "Punguzo",
+    "total": "Jumla",
+    "checkout": "Endelea na Malipo"
+  }
+}

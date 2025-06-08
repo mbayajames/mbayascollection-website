@@ -1,0 +1,23 @@
+.language-switcher {
+  display: inline-block;
+}
+
+.language-switcher select {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.dark-mode .language-switcher select {
+  background-color: #333;
+  color: #fff;
+  border-color: #444;
+}
+
+@media (max-width: 767px) {
+  .language-switcher select {
+    font-size: 1.1rem;
+  }
+}

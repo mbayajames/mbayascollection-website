@@ -1,0 +1,50 @@
+.wishlist {
+  padding: 2rem;
+}
+
+.wishlist h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.wishlist-item {
+  position: relative;
+}
+
+.remove-btn {
+  padding: 0.5rem 1rem;
+  background-color: #ff4444;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.wishlist p {
+  font-size: 1.4rem;
+}
+
+.dark-mode .wishlist {
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 767px) {
+  .wishlist h2 {
+    font-size: 2rem;
+  }
+
+  .remove-btn {
+    font-size: 1.1rem;
+  }
+
+  .wishlist p {
+    font-size: 1.2rem;
+  }
+}
