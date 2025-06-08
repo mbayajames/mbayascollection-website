@@ -1,0 +1,53 @@
+.track-order {
+  padding: 2rem;
+}
+
+.track-order h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.track-order form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.track-order form input {
+  padding: 0.75rem;
+  font-size: 1.3rem;
+  flex: 1;
+}
+
+.track-order form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #0055ff;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.order-details p {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.dark-mode .track-order {
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 767px) {
+  .track-order h2 {
+    font-size: 2rem;
+  }
+
+  .track-order form input,
+  .track-order form button {
+    font-size: 1.2rem;
+  }
+
+  .order-details p {
+    font-size: 1.2rem;
+  }
+}
